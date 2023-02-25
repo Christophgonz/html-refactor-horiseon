@@ -4,10 +4,12 @@
     margin: 0;
 }
 
+/* Background color for the entire webpage */
 body {
     background-color: #d9dcd6;
 }
 
+/* CSS Styles for the header, changed from the .header class */
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -15,15 +17,18 @@ header {
     color: #ffffff;
 }
 
+/* The Name of the company, Horiseon, at the top of the webpage, changed from the .header h1 class */
 h1 {
     display: inline-block;
     font-size: 48px;
 }
 
+/* Changing the color of seo in the Name at the top of the webpage, changed from the .header h1 .seo class */
 h1 span {
     color: #d9dcd6;
 }
 
+/* The style for the nav bar, changed from the .header div class  */
 nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -32,10 +37,12 @@ nav {
     font-size: 20px;
 }
 
+/* The navigation option container, changed from the .header div ul class */
 nav ul {
     list-style-type: none;
 }
 
+/* The options for navigation, changed from the .header div ul li class */
 nav ul li {
     display: inline-block;
     margin-left: 25px;
@@ -59,6 +66,7 @@ p {
     background-position: center;
 }
 
+/* The main information container, changed from the .content class */
 main {
     width: 75%;
     display: inline-block;
@@ -75,6 +83,8 @@ main {
     margin-left: 25px;
 }
 
+/* The information about the services the company provides, changed and combined .search-engine-optimization,
+.online-reputation-management, and .social-media-marketing classes */
 article {
     margin-bottom: 20px;
     padding: 50px;
@@ -84,15 +94,18 @@ article {
     color: #ffffff;
 }
 
+/* The image in the service part of the page */
 article img {
     max-height: 200px;
 }
 
+/* The title of the service part of the page */
 article h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
+/* The side section of the page that contains the benefits of the services provided, changed from the .benefits class*/
 aside {
     margin-right: 20px;
     padding: 20px;
@@ -104,22 +117,26 @@ aside {
     background-color: #2589bd;
 }
 
+/* The benefit section in the side section, changed and combined from .benefit-lead, .benefit-brand, and .benefit-cost  */
 section {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
+/* The title of the benefit */
 section h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
+/* The image in the benefit */
 section img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
+/* The footer of the page, changed from the .footer class */
 footer {
     padding: 30px;
     clear: both;
@@ -127,6 +144,7 @@ footer {
     text-align: center;
 }
 
+/* The text above the copyright information, changed from the .footer h2 class */
 footer h2 {
     font-size: 20px;
 }
